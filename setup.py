@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='pyvenn',
-      version='0.1',
+      version='1.0',
       description='',
       url='https://github.com/italodovalle/pyvenn',
       author='Ítalo do Valle',
@@ -16,5 +16,4 @@ setup(name='pyvenn',
           'pyparsing==2.4.7',
           'python-dateutil==2.8.1',
           'six==1.15.0'
-      ],
-      zip_safe=False)
+      ])
