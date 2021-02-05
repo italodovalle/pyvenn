@@ -5,7 +5,7 @@ Use magic function in ipython notebook:
 ```python
 %matplotlib inline
 
-import venn
+from pyvenn import venn
 ```
 
 Or using non-interactive backend:
@@ -13,7 +13,7 @@ Or using non-interactive backend:
 import matplotlib
 matplotlib.use('Agg')
 
-import venn
+from pyvenn import venn
 ```
 
 Fetch labels of each subset in venn diagram. The input data is an array of iterable data(list, set, etc.). 
